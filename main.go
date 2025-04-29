@@ -7,6 +7,7 @@ import (
 )
 
 func main() {
+	files.ReadFile()
 	files.WriteFile("Hello", "file.txt")
 
 	var login = promptData("Enter your login: ")
